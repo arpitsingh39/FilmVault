@@ -50,7 +50,7 @@ This project fetches real-time movie data from **The Movie Database (TMDB)**.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshots/hero.png)
 
 ### 🎬 Movie Listings
 ![Movies](./screenshots/movies.png)
