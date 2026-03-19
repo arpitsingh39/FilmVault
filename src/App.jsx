@@ -53,7 +53,7 @@ function App() {
                 pageNo={pageNo}
                 watchList={watchList}
                 handleAddtoWatchList={handleAddtoWatchList}
-                handleRemoveFromWatchList={hanleRemoveFromWatchList}
+                handleRemoveFromWatchList={hanleRemoveFromWatchList} //corrected the footer
               />
               <Pagination
                 handlePrev={handlePrev}
