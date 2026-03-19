@@ -8,7 +8,7 @@ function Movies({ pageNo, watchList, handleAddtoWatchList, handleRemoveFromWatch
   useEffect(() => {
     axios
       .get(
-        `https://api.themoviedb.org/3/movie/popular?api_key=7b6b39cb2f6ab3ef6625037632d31573&page=${pageNo}`
+        `https://api.themoviedb.org/3/movie/popular?api_key=${import.meta.env.VITE_TMDB_API_KEY}&page=${pageNo}`
       )
       .then(res => setMovies(res.data.results))
   }, [pageNo])
