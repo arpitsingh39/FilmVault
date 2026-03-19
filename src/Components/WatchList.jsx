@@ -18,7 +18,7 @@ function WatchList({ watchList, setWatchList }) {
       (a, b) => a.vote_average - b.vote_average
     );
     setWatchList(sorted);
-    localStorage.setItem("watchList", JSON.stringify(sorted));
+    localStorage.setItem("watchList", JSON.stringify(sorted));//sorting correction
   };
 
   // 🔽 Sort rating in descending order
